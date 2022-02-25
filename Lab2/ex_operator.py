@@ -8,7 +8,7 @@ print('x + y = ', x+y)  # 10+20 = 30
 print(f'x + y = {x+y}')
 
 print(f'{x}+{y}={x+y}')
-print(x,'+',y,'=',x+y)
+print(x, '+', y, '=', x+y)
 
 print(f'{x}-{y}={x-y}')  # 10-20 = -10
 print(f'{x}/{y}={x/y}')
