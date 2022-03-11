@@ -1,0 +1,20 @@
+"""
+Name: {Supisara Kongthong}
+SID: {364211760017}
+Group: {MIT211}
+
+เขียนฟังก์ชัน Calculator(a,b,op) โดยรับ parameter 3 ตัว ได้แก่ a, b ซึ่งเป็นจำนวนใดๆ และ op ซึ่ง
+เป็นสายอักขระที่เป็นไปได้ 4 แบบ คือ +, -, *, /
+• ถ้า op เป็น + ให้ return a+b
+• ถ้า op เป็น - ให้ return a-b
+• ถ้า op เป็น * ให้ return a*b
+• ถ้า op เป็น / ให้ return a/b
+"""
+
+def calculator(a,b,op):
+    input('Enter A : ')
+    input('Enter B : ')
+    input('Enter OP :')
+
+
+print('sum')

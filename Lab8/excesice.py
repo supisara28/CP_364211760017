@@ -22,4 +22,4 @@ def totalValue(var):
 
 mynum = getNumber()
 print(f'The data from user: {mynum}')
-print(f'The summation of thoese integer is: {totalValue(mynum)}')
+print(f'The summation of those integer is: {totalValue(mynum)}')
