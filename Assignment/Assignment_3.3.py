@@ -11,10 +11,20 @@ Group: {MIT211}
 • ถ้า op เป็น / ให้ return a/b
 """
 
-def calculator(a,b,op):
-    input('Enter A : ')
-    input('Enter B : ')
-    input('Enter OP :')
+op = ['+', '-', '*', '/']
+def calculator():
+    a = input('Enter A : ')
+    b = input('Enter B : ')
+    op = input('Enter OP :')
+    if op == '+':
+        return 'a+b'
+    elif op == '-':
+        return 'a-b'
+    elif op == '*':
+        return 'a*b'
+    else:
+        return 'a/b'
 
+cal = calculator()
+print(cal)
 
-print('sum')
